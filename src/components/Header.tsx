@@ -1,10 +1,10 @@
-import {HeaderContainer, TicketIcon} from "./Header.styles.ts";
+import {HeaderContainer, SpanMain, TicketIcon, TitleMain} from "./Header.styles.ts";
 
 export const Header = () => {
     return (
         <HeaderContainer>
             <TicketIcon size={36}/>
-            <h1>To<span>do</span></h1>
+            <TitleMain>To<SpanMain>do</SpanMain></TitleMain>
         </HeaderContainer>
     );
 };

@@ -7,15 +7,16 @@ export const HeaderContainer =styled.header`
     align-items: center;
     height: 12.5rem;
     background: ${({theme}) => theme.colors.gray700};
-    
-    h1{
+`
+export const TitleMain = styled.h1`
         color: ${({theme}) => theme.colors.blue300};
         font-size: 2.5rem;
-        span {
-            color: ${({theme}) => theme.colors.purple500};
-        }
-    }
 `
+
+export const SpanMain = styled.span`
+    color: ${({theme}) => theme.colors.purple500};
+`
+
 
 export const TicketIcon = styled(Ticket)`
     margin-right: 0.75rem;
